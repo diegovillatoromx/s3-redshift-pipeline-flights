@@ -1,2 +1,3 @@
-# s3-redshift-pipeline-vuelos
-Data engineering project that implements an ETL pipeline to transform and load flight data into a Redshift data warehouse. It utilizes AWS Glue for data transformation, Step Functions to orchestrate the workflow, and AWS CDK for infrastructure as code. Raw data is stored in S3 and processed daily
+# Serverless Flight Data Processing Pipeline with AWS
+
+Description: Unlock valuable insights from flight data. This repository contains the source code for a serverless data pipeline that ingests flight data in CSV format from Amazon S3, processes it using AWS Glue's powerful data transformation capabilities, and loads it into a Redshift data warehouse for in-depth analysis and business intelligence.
