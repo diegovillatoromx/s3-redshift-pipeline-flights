@@ -4,7 +4,7 @@ Description: Unlock valuable insights from flight data. This repository contains
  
 ## Architecture
 
-[!image](https://github.com/diegovillatoromx/s3-redshift-pipeline-flights/blob/main/architecture.png)
+![architecture](https://github.com/diegovillatoromx/s3-redshift-pipeline-flights/blob/main/architecture.png)
 
 ## Data Pipeline Workflow
 
