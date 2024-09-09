@@ -1,4 +1,4 @@
-{
+{ 
   "source": ["aws.s3"],
   "detail-type": ["Object Created"],
   "detail": {
