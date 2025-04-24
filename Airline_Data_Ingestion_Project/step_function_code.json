@@ -2,7 +2,7 @@
   "Comment": "A description of my state machine",
   "StartAt": "StartCrawler",
   "States": {
-    "StartCrawler": {
+    "StartCrawler": { 
       "Type": "Task",
       "Parameters": {
         "Name": "flights-data-crawler"
