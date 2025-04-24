@@ -32,6 +32,7 @@ DailyFlightsData_node1 = glueContext.create_dynamic_frame.from_catalog(
     transformation_ctx="DailyFlightsData_node1",
 )
 
+
 # Script generated for node Filter
 Filter_node1693406120672 = Filter.apply(
     frame=DailyFlightsData_node1,
