@@ -13,7 +13,7 @@ sc = SparkContext()
 glueContext = GlueContext(sc) 
 spark = glueContext.spark_session
 job = Job(glueContext)
-job.init(args["JOB_NAME"], args)
+job.init(args["JOB_NAME"], args) 
 
 # Script generated for node Airport Dim Table From Redshift
 AirportDimTableFromRedshift_node1693406103666 = (
