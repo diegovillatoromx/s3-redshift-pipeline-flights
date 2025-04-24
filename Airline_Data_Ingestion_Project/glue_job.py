@@ -9,7 +9,7 @@ from awsglue import DynamicFrame
 import re
 
 args = getResolvedOptions(sys.argv, ["JOB_NAME"])
-sc = SparkContext()
+sc = SparkContext() 
 glueContext = GlueContext(sc)
 spark = glueContext.spark_session
 job = Job(glueContext)
