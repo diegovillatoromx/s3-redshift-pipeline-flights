@@ -4,7 +4,7 @@ CREATE TABLE airlines.airports_dim (
     airport_id BIGINT,
     city VARCHAR(100),
     state VARCHAR(100),
-    name VARCHAR(200)
+    name VARCHAR(200) 
 );
 
 COPY airlines.airports_dim
