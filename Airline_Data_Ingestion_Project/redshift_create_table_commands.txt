@@ -11,7 +11,7 @@ COPY airlines.airports_dim
 FROM 's3://airlines-dataset-gds/airports.csv' 
 IAM_ROLE 'arn:aws:iam::348532040329:role/service-role/AmazonRedshift-CommandsAccessRole-20230820T081203'
 DELIMITER ','
-IGNOREHEADER 1
+IGNOREHEADER 1 
 REGION 'us-east-1';
 
 --------------
