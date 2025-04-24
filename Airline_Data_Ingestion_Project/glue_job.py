@@ -39,7 +39,6 @@ Filter_node1693406120672 = Filter.apply(
     f=lambda row: (row["depdelay"] > 60),
     transformation_ctx="Filter_node1693406120672",
 )
-
 # Script generated for node Join For Departure
 Filter_node1693406120672DF = Filter_node1693406120672.toDF()
 AirportDimTableFromRedshift_node1693406103666DF = (
